@@ -1,0 +1,113 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: #053005;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-size: 14pt;
+}
+
+.nav-logo, .nav-profile {
+    height: 75px;       
+    width: 75px;
+    margin: 15px 15px;
+}
+
+.nav-logo {
+    border-radius: 50%;
+}
+
+.nav-profile {
+    border-radius: 50%; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 100px;
+  text-decoration: none;
+}
+
+ul li a:visited {
+    color: #2d6a2d;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+
+
+
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    background-color: #0d0d0d;
+    color: #e8f5e8;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #121f12;
+    border-bottom: 2px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0 0 8px 0;
+}
+
+header p {
+    color: #8fbc8f;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+main {
+    width: 90%;
+    max-width: 12000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+section {
+    background-color: #121f12;
+    border: 3px solid #2d6a2d;
+    border-radius: 3px;
+    padding: 24px;
+    margin-bottom: 32px;
+}
+
+section:hover {
+    border-color: #4a9e4a;          
+    background-color: #1a2e1a;     
+}
+
+section h2 {
+    color: #4a9e4a;
+    margin-top: 0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121f12;
+    border-top: 2px solid #2d6a2d;
+    color: #8fbc8f;
+}
+
+footer a {
+    color: #4a9e4a;
+}
